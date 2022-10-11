@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>higher/lower</title>
+    <link rel="stylesheet" href="test.css">
+    <script src="test.js"></script>
+    <script src="jquery.js"></script>
+</head>
+ <body>
+    <h1>welcome to your new favourite card game!</h1>
+    <p>Let's say we have a shuffled deck of cards, you'll basically try to guess the next card's value compared to the current one each time.
+        u'll get a point each time u get it right.
+        we'll see your score once we finished the deck. 
+        good luck!
+    </p>
+   
+  <button id='next' type="button" onclick="compare()">next card</button>
+   
+  <div id="choice">
+      <input type="radio" class="c" name="choice" value="Higher"> Higher
+      <input type="radio" class="c" name="choice" value="Equal"> Equal
+      <input type="radio" class="c" name="choice" value="Lower"> Lower  
+ </div>
+
+ <div id="game-table"></div>
+<script>var old_card=getrandomcard()</script>
+</body>
+</html>

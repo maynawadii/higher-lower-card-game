@@ -1,0 +1,53 @@
+body {
+    background-image :url(haah.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+h1 {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size:80px;
+ color: rgb(231, 233, 76) ;}
+
+#next {
+  background: linear-gradient(to bottom right, #EF4765, #ecff5a);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 2.5;
+  text-align: center
+  margin-top: 100px;
+}
+
+
+#game-table {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    box-shadow: 0px 25px 40px #cc5959 ;
+    color:whitesmoke ;
+ border-radius: 25px;
+padding: 10px;
+margin-left: 300px;
+margin-right: 300px;
+}
+
+
+p { font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    box-shadow: 0px 25px 40px #cc5959 ;
+    color:whitesmoke ;
+ border-radius: 25px;
+padding: 10px;
+margin-left: 30px;
+margin-right: 300px;}
+
+
+input {
+   margin-left:300px ;
+   font-size: ;
+}
+
